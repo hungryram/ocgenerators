@@ -1,18 +1,23 @@
-<div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; cls-inactive: uk-navbar-transparent; top: 200">
-    <nav class="uk-navbar-container">
+<div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; top: 200">
+    <nav class="uk-navbar-container" style="background:white">
         <div class="uk-container uk-container-expand">
             <div uk-navbar>
                 <div class="uk-navbar-left">
-                    <a href="{{ .Site.BaseURL }}"><h3 class="uk-text-bold uk-margin-remove"><span class="uk-dim">Landscaping <span class="accent">Tecpoyotl Inc.</span></span></h3></a>
+                    <a href="{{ .Site.BaseURL }}">
+                        <img src="/uploads/oc-generators-logo.png" alt="OC Generators" width="300">
+                    </a>
 
                 </div>
                 <div class="uk-navbar-right">
-                    <ul class="uk-navbar-nav uk-text-bold">
+                    <ul class="uk-navbar-nav">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
+                    <div class="uk-navbar-item">
+                            <a class="uk-button accent-bg" style="color:white;">Free Estimate</a>
+                    </div>
                 </div>
 
             </div>

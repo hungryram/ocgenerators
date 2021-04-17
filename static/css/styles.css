@@ -6,8 +6,9 @@ body h3,
 body h4,
 body h5,
 body h6 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
+
 
 body p {
     line-height: 1.7;
@@ -19,7 +20,6 @@ body a {
 }
 
 body a:hover {
-    color: #6CB00B;
     transition: .3s;
 }
 
@@ -29,13 +29,12 @@ body {
 
 /* OVERWRITE */
 
-.primary-svg svg {
-    color: #6CB00B;
+.uk-overlay-accent {
+    background:rgb(240 106 47 / 92%);
 }
 
-div.uk-card-default {
-    background: #6CB00B;
-    border-radius: 8px;
+.primary-svg svg {
+    color: #F06A2F;
 }
 
 .uk-white {
@@ -60,7 +59,7 @@ a.uk-button.uk-button-secondary {
 
 a.uk-button.uk-button-primary,
 button.uk-button.uk-button-primary {
-    background: #6CB00B;
+    background: #F06A2F;
     border-radius: 50px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -70,8 +69,20 @@ a:hover {
     text-decoration: none!important;
 }
 
+body a {
+    color: inherit;
+}
+
 .accent {
-    color: #6CB00B
+    color: #F06A2F;
+}
+
+.accent-bg {
+    background:#F06A2F;
+}
+
+.secondary-bg {
+    background: #222;
 }
 
 .uk-padding-xlarge {
@@ -86,21 +97,14 @@ ul.uk-navbar-nav>li>a {
 
 /* HERO */
 
-div.hero-form {
-    background: white;
-    border-radius: 8 px;
+.hero-text h1 {
+    font-size: 4em;
 }
 
-input.uk-input {
-    background-color: #eee;
-    border-radius: 50px;
-    padding: 24px;
-}
-
-textarea.uk-textarea {
-    background-color: #eee;
-    border-radius: 15px;
-    padding: 24px;
+@media screen and (max-width:768px) {
+    .hero-text h1 {
+        font-size: 3rem;
+    }
 }
 
 
@@ -136,7 +140,9 @@ textarea.uk-textarea {
 /* FOOTER */
 
 footer {
-    background: #222;
+    background-color: #222;
+    background-image: url("/uploads/bgpattern.png");
+    border-top: 5px solid #F06A2F;
 }
 
 .hr-legals li {
