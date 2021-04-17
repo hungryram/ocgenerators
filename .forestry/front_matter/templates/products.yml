@@ -22,3 +22,5 @@ fields:
   config:
     required: false
   label: MSRP
+pages:
+- content/products/powerpact-6998-8-circuit-switch.md
