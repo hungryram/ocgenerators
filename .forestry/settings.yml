@@ -16,12 +16,10 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/services
-  label: Services
-  create: all
+  path: content/products
+  label: Products
+  create: documents
   match: "**/*"
-  templates:
-  - services
 - type: directory
   path: content/legal
   label: Legal
@@ -35,7 +33,6 @@ sections:
 - type: document
   path: content/about/_index.md
   label: About
-  match: "**/*"
 upload_dir: janie-patison/ocgenerators
 public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
