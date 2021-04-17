@@ -32,10 +32,9 @@ sections:
   label: Contact
   create: all
   match: "**/*"
-- type: directory
-  path: content/about
+- type: document
+  path: content/about/_index.md
   label: About
-  create: all
   match: "**/*"
 upload_dir: janie-patison/ocgenerators
 public_path: https://res.cloudinary.com/hungryram19/image/upload
