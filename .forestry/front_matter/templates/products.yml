@@ -1,4 +1,24 @@
 ---
 label: Products
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: photo
+  type: file
+  config:
+    maxSize: 2
+  label: Photo
+- name: model_number
+  type: text
+  config:
+    required: false
+  label: Model Number
+- name: msrp
+  type: text
+  config:
+    required: false
+  label: MSRP
