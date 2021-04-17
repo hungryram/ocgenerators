@@ -23,4 +23,5 @@ fields:
     required: false
   label: MSRP
 pages:
+- content/products/20kw-7038-wifi-enabled.md
 - content/products/powerpact-6998-8-circuit-switch.md
