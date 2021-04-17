@@ -5,8 +5,8 @@ name = "About Us"
 weight = 3
 
 +++
-### We Care About Your Business
+OC Generators has been serving all of Southern California for over 30 years and is fully licensed, bonded and insured.
 
-Landscaping Tecpoyotl Inc. is a licensed, and insured business. As an industry leader in landscaping in surrounding areas of Orange County, San Bernardino County, and Riverside County, we provide the most quality service and is responsible for servicing big commercial and many residential areas. Using only the best quality and supplies, we take great pride in our business and providing customer satisfaction is our goal.
+We are a certified award-winning Generac generator dealer and certified Generac Tech Pro. OC Generators will design, engineer, permit and install your generator. When it’s time for maintenance or warranty work, our highly trained, certified staff be there to take care of you.
 
-Ready to work with us? Landscaping Tecpoyotl Inc. will invest our time to ensure a complete landscaping plan is prepared right for you. We have worked with many successful communities and are ready to help you.
+Call us today to discuss how to protect your home or business from a power failure.
