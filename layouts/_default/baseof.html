@@ -2,8 +2,12 @@
 {{ partial "global/navbar" . }}
 {{ if .Params.model_number }}
 {{ else }}
-<div class="uk-light uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(/uploads/HSB_1288x400.png);">
-    <h2 class="uk-h1">{{ .Title }}</h2>
+<div class="uk-section uk-section-small">
+    <div class="uk-container uk-container-expand">
+        <div class="uk-light uk-background-cover uk-height-small uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(/uploads/inner.jpg);border-radius:10px">
+            <h2 class="uk-h2 uk-text-light uk-text-uppercase">{{ .Title }}</h2>
+        </div>
+    </div>
 </div>
 {{ end }}
 <main>

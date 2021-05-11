@@ -1,10 +1,31 @@
 <div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; top: 200">
-    <nav class="uk-navbar-container" style="background:white">
+    <div class="top-bar">
+        <div class="uk-navbar-container" style="background:#222;padding-top:8px;padding-bottom:8px;">
+            <div class="uk-container uk-container-expand">
+                <div class="uk-text-center" uk-grid>
+                    <div class="uk-width-auto">
+                        <div>
+                            <a href="mailto:{{ .Site.Data.profile.contact_information.email }}" class="uk-margin-medium-right uk-white uk-text-small"><span href="#" uk-icon="icon: mail" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.email }}</span></a>
+                            <a href="mailto:{{ .Site.Data.profile.contact_information.email }}" class="uk-white uk-text-small"><span href="#" uk-icon="icon: receiver" class="uk-margin-small-right uk-white"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand uk-text-right">
+                        <div>
+                            {{ if .Site.Data.profile.social_media.instagram }}<a href="" class="uk-margin-small-right" uk-icon="icon: instagram; ratio:1"></a>{{ end }}
+                            {{ if .Site.Data.profile.social_media.facebook }}<a href="" class=" uk-margin-small-right" uk-icon="facebook"></a>{{ end }}
+                            {{ if .Site.Data.profile.social_media.pinterest }}<a href="" class=" uk-margin-small-right" uk-icon="pinterest"></a>{{ end }}
+                            {{ if .Site.Data.profile.social_media.twitter }}<a href="" class=" uk-margin-small-right" uk-icon="twitter"></a>{{ end }}
+                        </div>
+                    </div>
+                </div>            </div>
+        </div>
+    </div>
+    <nav class="uk-navbar-container" style="background:white;padding-top:10px;padding-bottom:10px;{{ if $.IsHome }}{{ else }}box-shadow:0px 6px 20px #e2e2e2;position:relative;z-index:2{{ end }}">
         <div class="uk-container uk-container-expand">
             <div uk-navbar>
                 <div class="uk-navbar-left">
                     <a href="{{ .Site.BaseURL }}">
-                        <img src="/uploads/oc-generators-logo.png" alt="OC Generators" width="300">
+                        <img src="/uploads/generac-ocgen.png" alt="OC Generators" width="600">
                     </a>
 
                 </div>
@@ -30,7 +51,7 @@
 <div uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; top: 400">
     <nav class="uk-navbar uk-navbar-container uk-hidden@s uk-padding-small uk-box-shadow-small">
         <div class="uk-navbar-left">
-            <a href="{{ .Site.BaseURL }}"><img src="/uploads/oc-generators-logo.png" alt="OC Generators" width="200"></a>
+            <a href="{{ .Site.BaseURL }}"><img src="/uploads/generac-ocgen.png" alt="OC Generators" width="300"></a>
         </div>
         <div class="uk-navbar-right">
             <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#mobile-menu-slide" uk-toggle></a>

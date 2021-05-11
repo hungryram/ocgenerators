@@ -94,6 +94,12 @@ ul.uk-navbar-nav>li>a {
     color: #b5b5b5;
 }
 
+/* TOP NAVBAR */
+
+div.top-bar a:hover {
+    color: #F06A2F;
+}
+
 /* HERO */
 
 .hero-text h1 {

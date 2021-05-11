@@ -1,19 +1,22 @@
-<div class="uk-section-primary uk-preserve-color uk-cover-container" uk-height-viewport style="background:url('uploads/banner5.jpg') no-repeat center; background-size:cover">
-
 {{ partial "global/navbar" . }}
 
-    <div class="uk-section uk-section-large uk-margin-medium-top">
-        <div class="uk-container uk-container-large">
-            <div class="uk-grid-large uk-flex uk-flex-middle" uk-grid>
-                <div class="hero-text uk-dark uk-width-3-5@s">
-                    <h4 class="uk-text-bold accent">COMFORT. SECURITY. CONVENIENCE.</h4>
-                    <h1 class="uk-text-bold uk-margin-remove">Protect your home with Generac Backup Generators</h1>
-                    <h5 class="uk-text-bold">Certified Award-Winning Generac Generator Dealer and Certified Generac Tech Pro</h5>
-                    <a href="/contact" class="uk-button-secondary uk-button">Find Home Generators <span uk-icon="chevron-right"></span>
-                    </a>
-                </div>
+<div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push">
+    <ul class="uk-slideshow-items hero-slide" uk-height-viewport="offset-bottom:10">
+        <li>
+            <img src="uploads/black.jpg" alt="" uk-cover>
+            <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                <h4 class="uk-text-bold accent">COMFORT. SECURITY. CONVENIENCE.</h4>
+                <h1 class="uk-text-bold uk-margin-remove">Protect your home with Generac Backup Generators</h1>
+                <h5 class="uk-text-bold">Certified Award-Winning Generac Generator Dealer and Certified Generac Tech Pro</h5>
+                <a href="/contact" class="uk-button-secondary uk-button">Find Home Generators <span uk-icon="chevron-right"></span>
+                </a>
             </div>
-        </div>
+        </li>
+    </ul>
+
+    <div class="uk-light">
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
     </div>
 
 </div>
