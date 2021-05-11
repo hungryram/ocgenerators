@@ -27,6 +27,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+div.content a {
+    color: #F06A2F;
+}
+
 /* OVERWRITE */
 
 .uk-overlay-accent {
