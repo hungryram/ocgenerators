@@ -1,7 +1,12 @@
 {{ define "main" }}
 <div class="uk-section">
-    <div class="uk-container">
-        
+    <div class="uk-container uk-container-small">
+        {{ range .Params.testimonials }}
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-1 uk-margin">
+            <p>{{ .review }}</p>
+            <em><strong>{{ .name }}</strong></em>
+        </div>
+        {{ end }}
     </div>
 </div>
 {{ end }}

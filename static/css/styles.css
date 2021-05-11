@@ -9,6 +9,9 @@ body h6 {
     font-family: 'Noto Sans', sans-serif;
 }
 
+div em {
+    color: inherit;
+}
 
 body p {
     line-height: 1.7;
