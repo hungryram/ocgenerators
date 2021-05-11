@@ -38,7 +38,6 @@ sections:
 - type: document
   path: content/testimonials/_index.md
   label: Reviews
-  match: "**/*"
 upload_dir: janie-patison/ocgenerators
 public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
