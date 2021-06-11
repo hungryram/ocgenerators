@@ -8,11 +8,12 @@ social_media:
   yelp: ''
 contact_information:
   name: Janie Patison
-  phone: (949) 356-7111
-  email: janie@ocgenerators.com
+  phone: "(949) 356-7111"
+  email: info@ocgenerators.com
 search_engine_optimization:
   title_tag: OC Generators | Yorba Linda, CA | Generac Power Systems Dealer
-  meta_description: OC Generators is your local Generac Power Systems dealer. We offer portable, residential, commercial, and industrial generators.
+  meta_description: OC Generators is your local Generac Power Systems dealer. We offer
+    portable, residential, commercial, and industrial generators.
   twitter_card:
     twitter_username: ''
   facebook:
